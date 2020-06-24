@@ -1,0 +1,22 @@
+body {
+  background-color: #F3F3F3;
+  color: #4F4F4F;
+}
+
+.App {
+  text-align: center;
+}
+
+.images > * {
+  margin: 20px;
+}
+
+.info {
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: left;
+}
+
+.mainContainer > * {
+  margin-bottom: 40px;
+}
