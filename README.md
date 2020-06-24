@@ -16,7 +16,7 @@ cd ..
 cd client
 npm install
 ```
-After that, you can start both the frontend and backend (while in the root directory):
+After that, you can start both the frontend and backend:
 ```
 cd api
 npm start
