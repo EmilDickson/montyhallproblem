@@ -10,7 +10,7 @@ The frontend was built using React, and was generated using create-react-app. It
 The backend was written in node, and handles all of the application logic. Tests were written using Jest.
 
 ## How do I try it out?
-Well, first of all, clone the repository, then:
+First of all, clone the repository. Then:
 ```
 cd api
 npm install
