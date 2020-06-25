@@ -1,5 +1,7 @@
 # Monty Hall Simulator
-Simulator for the Monty Hall problem in the form of a React web app!
+Simulator for the [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) in the form of a React web app! This brain teaser is a probability puzzle based on the TV game show *Let's Make a Deal*. You get to choose between three doors: one of them has a car behind it, the other two have a goat each. You get to pick one of the doors and then the host will open one of the other doors (but never the one with the car). Finally, you get the option to switch doors. The question behind this problem is then whether the probability of winning the car increases if you choose to switch doors?
+
+The simulation presented in this web app is based on the [vos Savant](https://en.wikipedia.org/wiki/Monty_Hall_problem#Simple_solutions) solution to the problem, which shows that the probability when *switching* doors is roughly 2/3. The web app will allow you to specify whether to switch doors and the number of simulations to run. You will then receive the results (i.e. number of times the car was won vs. number of times a goat was won) and can also see all of the games in a table.
 
 ## Frontend
 The frontend was built using React, and was generated using create-react-app. It also uses MaterialUI.
