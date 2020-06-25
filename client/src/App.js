@@ -79,6 +79,8 @@ class App extends Component {
     }
 
     updateWindowDimensions() {
+        // Results table is too wide for smaller screens and will not behave responsively.
+        // Therefore, table does not render for screens of width < 422px.
         this.setState({ windowWidth: window.innerWidth });
     }
 
