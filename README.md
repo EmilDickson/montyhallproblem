@@ -31,5 +31,5 @@ npm start
 ### For testing:
 Tests are available for the backend, while in the api root folder, simply run:
 ```
-npm run tests
+npm run test
 ```
